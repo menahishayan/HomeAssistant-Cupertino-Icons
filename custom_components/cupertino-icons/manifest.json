@@ -1,9 +1,0 @@
-{
-    "domain": "cupertino-icons",
-    "name": "Cupertino Icons",
-    "documentation": "",
-    "dependencies": ["frontend"],
-    "codeowners": ["menahishayan"],
-    "requirements": [],
-    "config_flow": true
-}
