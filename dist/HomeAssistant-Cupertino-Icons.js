@@ -8,13 +8,13 @@ async function getIcon(name) {
 }
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets['cup'] = getIcon;
+window.customIconsets['ios'] = getIcon;
 
 if (!window.frontendVersion || window.frontendVersion < 20200519.0) {
   // ha-iconset-svg (Up to Home Assistant 0.109):
   const iconset = document.createElement("ha-iconset-svg");
-  iconset.name = "cup";
-  iconset.size = "512";
+  iconset.name = "ios";
+  iconset.size = "24";
 
   let iconsetHTML = '';
   for (let key in CUPERTINO_ICONS_MAP) {
