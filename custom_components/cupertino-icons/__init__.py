@@ -3,7 +3,7 @@ from homeassistant.components.frontend import _frontend_root
 
 from .custom_component_server import setup_view
 
-DOMAIN = "HomeAssistant-Cupertino-Icons"
+DOMAIN = "cupertino-icons"
 
 DATA_EXTRA_MODULE_URL = 'frontend_extra_module_url'
 ICONS_URL = '/'+DOMAIN+'/'
