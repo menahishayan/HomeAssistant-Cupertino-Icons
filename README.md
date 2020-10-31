@@ -39,7 +39,7 @@ Apple iOS-like Cupertino style icons for Home Assistant!
 2. Frontend
 3. Menu > **Custom Repository**
 4. Paste this repo's URL
-5. Select **Theme** in the dropdown
+5. Select **Lovelace** in the dropdown
 6. Install **cupertino-icons**
 7. Reload frontend cache
 
