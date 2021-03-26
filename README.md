@@ -59,13 +59,22 @@ Prefix: **ios**
 Eg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
 ## Icon Reference
-[Cupertino Icons v1.0.0](https://flutter.github.io/cupertino_icons/)
+
+~P.S.: with only 1216 icons, the iconset is rather small compared to MDI and incredibly limited. The new SF Pro Symbols v2.0+ now has a total of over 2000+ icons. Update coming soon.~
+
+**v2.0.1 Update**  
+Home Assistant Cupertino Icons has now been updated to SF Symbols v2.1!
+
+It now supports **2441 Icons**! (Copyrighted icons excluded)
+
+[SF Symbols v2.1 | Apple](https://developer.apple.com/sf-symbols/)  
+[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)
+
+You may download the MacOS App from Apple for a better reference.
 
 **Note:** underscores(\_) must be swapped with hipens(-)  
-
-*P.S.: with only 1216 icons, the iconset is rather small compared to MDI and incredibly limited. The new SF Pro Symbols v2.0+ now has a total of over 2000+ icons. Update coming soon.*
 
 <hr/>
 
 ## To Do
-⬜️ Upgrade to SF Pro Symbols v2.0
+☑️ Upgrade to SF Pro Symbols v2.1
