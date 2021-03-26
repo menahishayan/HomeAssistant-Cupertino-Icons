@@ -72,7 +72,7 @@ It now supports **2441 Icons**! (Copyrighted icons excluded)
 
 You may download the MacOS App from Apple for a better reference.
 
-**Note:** underscores(\_) must be swapped with hipens(-)  
+**Note:** underscores(\_) and dots(.) must be swapped with hipens(-)  
 
 <hr/>
 
