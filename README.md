@@ -109,6 +109,13 @@ You may download the MacOS App from Apple for a better reference.
 
 **Note:** underscores(\_) and dots(.) must be swapped with hipens(-)  
 
+## Breaking Changes
+Starting with v3.0+, this repo has been changed from a lovelace/frontend repo to a full-fledged integration. If you're upgrading from an older version:
+1. HACS > Uninstall "cupertino-icons"
+2. HACS > Menu > **Custom Repository**
+3. Delete this repo
+4. Follow **Install** instructions above
+
 ## Legal Disclaimer
 Certain icons are copyrighted by Apple and are not allowed to used with modification. These icons have not been exported and are not present in this repo. They will not be included.
 
