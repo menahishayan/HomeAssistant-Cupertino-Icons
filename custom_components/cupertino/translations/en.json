@@ -1,0 +1,9 @@
+{
+  "title": "Cupertino Icons",
+  "config": {
+    "abort": {
+      "single_instance_allowed": "Only a single configuration of Cupertino Icons is allowed."
+    },
+    "step": {}
+  }
+}

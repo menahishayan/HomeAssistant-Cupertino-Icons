@@ -1,0 +1,11 @@
+{
+    "domain": "cupertino",
+    "name": "HomeAssistant Cupertino Icons",
+    "documentation": "https://github.com/menahishayan/HomeAssistant-Cupertino-Icons",
+    "dependencies": ["frontend", "http"],
+    "codeowners": [],
+    "requirements": [],
+    "config_flow": true,
+    "version": "3.0.0",
+    "iot_class": "local_polling"
+}
