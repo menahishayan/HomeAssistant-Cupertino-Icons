@@ -11,14 +11,11 @@ This is the dev branch used to build and release new versions of this repo.
     - requiredABsize, OPTIONS.size, OPTIONS.height and OPTIONS.width = 24 (v2)
     - requiredABsize, OPTIONS.size, OPTIONS.height and OPTIONS.width = 512 (v3+)
   - Copy `./build-tools/ResizeAllArtboards.jsx` and `./build-tools/ScaleDown.jsx` into `<Adobe Illustrator Path>/Presets/<language>/Scripts/`
+  - Copy `./build-tools/SFSymbols.aia` into `<Adobe Illustrator Path>/Presets/<language>/Actions/`
   - Open Illustrator
-  - Window > Actions > Create New Action from menu item > :
-    - Fit to artwork bounds
-    - ScaleDown
-    - ResizeAllArtboards
 5. Actual SVG cleanup:
   - Open Illustrator
-  - Window > Actions > Select your new action:
+  - Window > Actions > SFSymbols > Select "ScaleDown":
   - Window > Actions > Batch:
     - Select the folders for input and output
   - Run the batch operation to properly scale and align all SVG items
