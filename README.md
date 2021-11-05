@@ -1,56 +1,53 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 
 # Home Assistant Cupertino Icons
-Apple iOS-like Cupertino style icons for Home Assistant!
+Apple SF Symbols icons for Home Assistant!
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb_fill.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/alarm.svg" alt="preview" width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/app_badge_fill.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/battery_25.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed_double_fill.svg" alt="preview"  width="50"/>
   <br/>
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/camera_fill.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_moon_rain.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_sun.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_stars.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_zzz_fill.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/person_crop_circle_badge_checkmark.svg" alt="preview"  width="50"/>
-  &#8287;&#8287;&#8287;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/speaker_2_fill.svg" alt="preview"  width="50"/>
 </div>
 
 ## Install
 ### HACS (Recommended)
-1. Go to the **HACS** tab
-2. Frontend
-3. Menu > **Custom Repository**
+1. **HACS** tab > Menu > **Custom Repository**
 4. Paste this repo's URL
-5. Select **Lovelace** in the dropdown
-6. Install **cupertino-icons**
-7. Reload frontend cache
+5. Select **Integration** in the dropdown
+6. Install **cupertino-icons** from HACS
+7. Restart Home Assistant
+8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install
 
-The icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant
+The icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant.
 
 ### Manual
-1. Clone this repo
-2. Copy `dist/HomeAssistant-Cupertino-Icons.js` to `{HOMEASSISTANT_ROOT_DIR}/www/`
-3. Home Assistant > **Settings** > **Lovelace Dashboards** > **Resources** > **Add**
-   - URL: `/local/HomeAssistant-Cupertino-Icons.js`
-   - Resource Type: `JavaScript Module`
+1. Copy `custom_components/cupertino` into your custom_components folder
+7. Restart Home Assistant
+8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install
   
 The icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant
 
@@ -58,16 +55,47 @@ The icons should be usable in Home Assistant now. If it doesnt show up, try refr
 Prefix: **ios**  
 Eg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
+## Multi-Color Icons! (v3.0+)
+<div style="display: inline-block;">
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg" alt="preview" width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg" alt="preview"  width="50"/>
+  <br/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
+  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="preview"  width="50"/>
+</div>
+SF Symbols 3+ supports multi-color icons. This functionality has been ported into this repo to support multi-color icons in Home Assistant!
+
+Just add Suffixes **#color**, **#invert**, **#color-invert** or **#fullcolor** to change the icon colors! (Credit to [thomasloven](https://github.com/thomasloven/hass-fontawesome) for the inspiration)
+
 ## Icon Reference
 
-~P.S.: with only 1216 icons, the iconset is rather small compared to MDI and incredibly limited. The new SF Pro Symbols v2.0+ now has a total of over 2000+ icons. Update coming soon.~
+**v3.0 Update**  
+ - Home Assistant Cupertino Icons has now been updated to SF Symbols v3.0 with **3167 Icons**! (Copyrighted icons excluded)
+ - Supports Home Assistant's icon picker (2021.11.0+)
 
-**v2.0.1 Update**  
-Home Assistant Cupertino Icons has now been updated to SF Symbols v2.1!
-
-It now supports **2441 Icons**! (Copyrighted icons excluded)
-
-[SF Symbols v2.1 | Apple](https://developer.apple.com/sf-symbols/)  
+[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
 [SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)
 
 You may download the MacOS App from Apple for a better reference.
@@ -78,3 +106,6 @@ You may download the MacOS App from Apple for a better reference.
 
 ## To Do
 ☑️ Upgrade to SF Pro Symbols v2.1
+☑️ Upgrade to SF Pro Symbols v3.0
+☑️ Multicolor support
+☑️ Icon Picker
