@@ -132,7 +132,7 @@ customElements.whenDefined("ha-svg-icon").then(() => {
           opacity: 1;
         }
         .white {
-          fill: white;
+          fill: var(--secondary-background-color);
         }
         :host(.invert) .secondary {
           opacity: 1;
