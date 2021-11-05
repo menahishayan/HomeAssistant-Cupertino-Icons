@@ -1,7 +1,7 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 
 # Home Assistant Cupertino Icons
-Apple SF Symbols icons for Home Assistant!
+Apple SF Symbols Icons for Home Assistant! (3000+ Icons)
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
@@ -85,9 +85,16 @@ Eg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="preview"  width="50"/>
 </div>
-SF Symbols 3+ supports multi-color icons. This functionality has been ported into this repo to support multi-color icons in Home Assistant!
+
+
+SF Symbols 3+ supports multi-color icons. This functionality has been ported into this repo to support multi-color icons in Home Assistant!  
 
 Just add Suffixes **#color**, **#invert**, **#color-invert** or **#fullcolor** to change the icon colors! (Credit to [thomasloven](https://github.com/thomasloven/hass-fontawesome) for the inspiration)
+
+Eg:
+ - ios:gear-badge-xmark#color
+ - ios:gear-badge-xmark#color-invert
+ - ios:gear-badge-xmark#fullcolor
 
 ## Icon Reference
 
@@ -102,10 +109,13 @@ You may download the MacOS App from Apple for a better reference.
 
 **Note:** underscores(\_) and dots(.) must be swapped with hipens(-)  
 
+## Legal Disclaimer
+Certain icons are copyrighted by Apple and are not allowed to used with modification. These icons have not been exported and are not present in this repo. They will not be included.
+
 <hr/>
 
 ## To Do
-☑️ Upgrade to SF Pro Symbols v2.1
-☑️ Upgrade to SF Pro Symbols v3.0
-☑️ Multicolor support
-☑️ Icon Picker
+☑️ Upgrade to SF Pro Symbols v2.1  
+☑️ Upgrade to SF Pro Symbols v3.0  
+☑️ Multicolor support  
+☑️ Icon Picker  
