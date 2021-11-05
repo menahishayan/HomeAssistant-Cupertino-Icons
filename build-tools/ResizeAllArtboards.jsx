@@ -5,9 +5,9 @@
 #target Illustrator  
 
 var OPTIONS = {
-    size   : 24,
-    width  : 24,
-    height : 24
+    size   : 512,
+    width  : 512,
+    height : 512
 };
 
 if (app.documents.length == 0) {

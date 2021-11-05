@@ -1,14 +1,14 @@
 #target Illustrator
 
-var requiredABsize = 24; //px
+var requiredABsize = 512; //px
 var activeDoc = app.activeDocument;
 
 var abActive   = activeDoc.artboards[ activeDoc.artboards.getActiveArtboardIndex() ];
 var abProps    = getArtboardBounds(abActive);
 var scale	   = findRequiredScale(abProps);
 
-if (scale  < 1)
-{
+// if (scale  < 1)
+// {
 	// select all items
 	var items = activeDoc.pageItems;
 	for(var i = 0;i < items.length;i++)
@@ -32,7 +32,7 @@ if (scale  < 1)
 	activeDoc.fitArtboardToSelectedArt(activeDoc.artboards.getActiveArtboardIndex());
 	app.executeMenuCommand("fitall");
 	
-}
+// }
 
 
 // Artboard bounds helper (used above):
@@ -60,9 +60,9 @@ function getArtboardBounds(artboard) {
 
 function findRequiredScale(props) {
 	var scale = Math.min(requiredABsize / props.height, requiredABsize / props.width);
-	if (scale <1)
+	// if (scale <1)
 	return scale;
-	else
-	return 1;
+	// else
+	// return 1;
 }
 
