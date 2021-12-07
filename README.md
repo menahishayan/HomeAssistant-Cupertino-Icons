@@ -129,8 +129,11 @@ Certain icons are copyrighted by Apple and are not allowed to used with modifica
 
 ## Changelog
 
-### v3.0.1
+### v3.0.2
  - Fixed a bug that caused sizing issues
+
+### v3.0.1
+ - Fixed a bug that caused multi-color icons to be displayed incorrectly
 
 ### v3.0
  - Update to SF Symbols 3.0
