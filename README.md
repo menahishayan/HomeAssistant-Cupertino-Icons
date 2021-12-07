@@ -119,3 +119,15 @@ Certain icons are copyrighted by Apple and are not allowed to used with modifica
 ☑️ Upgrade to SF Pro Symbols v3.0  
 ☑️ Multicolor support  
 ☑️ Icon Picker  
+
+## Changelog
+
+### v3.0.1
+ - Fixed a bug that caused sizing issues
+
+### v3.0
+ - Update to SF Symbols 3.0
+ - Support for multicolor icons
+ - Supports icon picker
+ - Restructure and refactor layout
+ - **Breaking Changes:** Repo type has been changed from frontend/lovelace plugin to a full-fledged integration. You may need to uninstall, delete the repo from HACS and reinstall.
