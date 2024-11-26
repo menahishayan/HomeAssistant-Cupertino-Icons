@@ -1,3 +1,11 @@
-<?xml version="1.0" ?><!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<path d="M120.4,512c11.7,0,18.6-6.7,40.1-27.4l93.3-91.9c1.2-1.2,3.3-1.2,4.3,0l93.3,91.9c21.5,20.8,28.4,27.4,40.1,27.4  c16,0,25.3-10.5,25.3-29.1V68.5c0-45.4-22.7-68.5-67.6-68.5H162.7c-44.9,0-67.6,23.2-67.6,68.5v414.4  C95.1,501.5,104.4,512,120.4,512z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generator: Apple Native CoreSVG 326-->
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.002 26.6895">
+ <g>
+  <rect height="26.6895" opacity="0" width="17.002" x="0" y="0"/>
+  <path d="M1.21094 26.6602C1.74805 26.6602 2.08984 26.3574 3.03711 25.4297L8.21289 20.2637C8.27148 20.2051 8.36914 20.2051 8.42773 20.2637L13.6035 25.4297C14.5508 26.3477 14.8828 26.6602 15.4297 26.6602C16.1914 26.6602 16.6406 26.1426 16.6406 25.2637L16.6406 3.45703C16.6406 1.17188 15.4785 0 13.2129 0L3.42773 0C1.16211 0 0 1.17188 0 3.45703L0 25.2637C0 26.1426 0.449219 26.6602 1.21094 26.6602Z" fill="black" fill-opacity="0.85"/>
+ </g>
 </svg>
