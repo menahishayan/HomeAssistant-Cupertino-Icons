@@ -1,4 +1,12 @@
-<?xml version="1.0" ?><!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<path d="M212.4,76.7h87.3V27.6c0-9.9-2.2-16.9-6.5-21.2C288.8,2.1,281.8,0,272,0h-31.9c-9.9,0-17,2.1-21.3,6.4  c-4.3,4.3-6.5,11.3-6.5,21.2V76.7z" class="hierarchical-0:secondary SFSymbolsPreview4D4D4D" style="fill: #4D4D4D;"/>
-<path d="M210.6,330.7h91.1c9.7,0,16.7-2.1,21-6.4c4.3-4.3,6.4-11.3,6.4-21.2V130.6c0-9.7-2.1-16.8-6.4-21.1  c-4.3-4.3-11.3-6.5-21-6.5h-91.1c-9.9,0-16.9,2.2-21.2,6.5c-4.3,4.3-6.4,11.4-6.4,21.1v172.5c0,9.9,2.1,16.9,6.4,21.2  C193.6,328.6,200.7,330.7,210.6,330.7z M237.5,512H275V296.6h-37.5V512z" class="hierarchical-1:primary SFSymbolsPreview212121" style="fill: #212121;"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generator: Apple Native CoreSVG 326-->
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8.47656 28.3301">
+ <g>
+  <rect height="28.3301" opacity="0" width="8.47656" x="0" y="0"/>
+  <path d="M3.13477 28.3301L4.99023 28.3301L4.99023 16.377L3.13477 16.377ZM1.47461 18.2715L6.64062 18.2715C7.67578 18.2715 8.11523 17.8418 8.11523 16.8066L8.11523 7.03125C8.11523 5.99609 7.67578 5.55664 6.64062 5.55664L1.47461 5.55664C0.439453 5.55664 0 5.99609 0 7.03125L0 16.8066C0 17.8418 0.439453 18.2715 1.47461 18.2715Z" fill="black" fill-opacity="0.85"/>
+  <path d="M1.67969 4.19922L6.43555 4.19922L6.43555 1.46484C6.43555 0.429688 5.98633 0 4.95117 0L3.16406 0C2.12891 0 1.67969 0.429688 1.67969 1.46484Z" fill="black" fill-opacity="0.425"/>
+ </g>
 </svg>
