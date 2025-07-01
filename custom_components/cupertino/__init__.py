@@ -2,6 +2,7 @@ import logging
 
 from homeassistant.components.frontend import add_extra_js_url
 from homeassistant.components.http.view import HomeAssistantView
+from homeassistant.components.http import StaticPathConfig
 
 import json
 from os import walk, path
@@ -34,18 +35,22 @@ class ListingView(HomeAssistantView):
 
 
 async def async_setup(hass, config):
-    hass.http.register_static_path(
-        LOADER_URL,
-        hass.config.path(LOADER_PATH),
-        True
-    )
+    await hass.http.async_register_static_paths([
+        StaticPathConfig(
+            LOADER_URL,
+            hass.config.path(LOADER_PATH),
+            True
+        )
+    ])
     add_extra_js_url(hass, LOADER_URL)
 
-    hass.http.register_static_path(
-        ICONS_URL + "/ios",
-        hass.config.path(ICONS_PATH + "/ios"),
-        True
-    )
+    await hass.http.async_register_static_paths([
+        StaticPathConfig(
+            ICONS_URL + "/ios",
+            hass.config.path(ICONS_PATH + "/ios"),
+            True
+        )
+    ])
     hass.http.register_view(
         ListingView(
             ICONLIST_URL + "/ios",
