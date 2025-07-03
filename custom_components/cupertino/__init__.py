@@ -2,6 +2,7 @@ import logging
 
 from homeassistant.components.frontend import add_extra_js_url
 from homeassistant.components.http.view import HomeAssistantView
+from homeassistant.components.http import StaticPathConfig
 
 import json
 from os import walk, path
@@ -27,25 +28,45 @@ class ListingView(HomeAssistantView):
         self.name = "Icon Listing"
 
     async def get(self, request):
-        icons = []
-        for (dirpath, dirnames, filenames) in walk(self.iconpath):
-            icons.extend([{"name": path.join(dirpath[len(self.iconpath):], fn[:-4])} for fn in filenames if fn.endswith(".svg")])
-        return json.dumps(icons)
+        """Handle GET request asynchronously."""
+        hass = request.app["hass"]  # Get Home Assistant instance
+        LOGGER.debug("Icon listing requested at %s", self.url)
+        
+        # Run os.walk() in a separate thread
+        icons = await hass.async_add_executor_job(self._scan_icons)
 
+        LOGGER.debug("Icons found: %s", icons)
+        return self.json(icons)
+
+    def _scan_icons(self):
+        """Scan the icon directory synchronously but offload it from the event loop."""
+        icons = []
+        for (dirpath, _, filenames) in walk(self.iconpath):
+            icons.extend([
+                {"name": path.join(dirpath[len(self.iconpath):], fn[:-4])}
+                for fn in filenames if fn.endswith(".svg")
+            ])
+        return icons
 
 async def async_setup(hass, config):
-    hass.http.register_static_path(
-        LOADER_URL,
-        hass.config.path(LOADER_PATH),
-        True
-    )
-    add_extra_js_url(hass, LOADER_URL)
+    # Register the JavaScript loader asynchronously
+    await hass.http.async_register_static_paths([
+        StaticPathConfig(LOADER_URL, hass.config.path(LOADER_PATH), True)
+    ])
 
-    hass.http.register_static_path(
-        ICONS_URL + "/ios",
-        hass.config.path(ICONS_PATH + "/ios"),
-        True
-    )
+    # Register extra module URL
+    hass.data.setdefault(DATA_EXTRA_MODULE_URL, set()).add(LOADER_URL)
+
+    # Register the icons path asynchronously
+    await hass.http.async_register_static_paths([
+        StaticPathConfig(
+            ICONS_URL + "/ios", 
+            hass.config.path(ICONS_PATH + "/ios"), 
+            True
+        )
+    ])
+
+    # Register the view for icons
     hass.http.register_view(
         ListingView(
             ICONLIST_URL + "/ios",

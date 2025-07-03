@@ -1,17 +1,31 @@
 {
   "name": "cupertino-icons",
   "private": false,
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "",
   "scripts": {
     "build": "webpack"
   },
   "keywords": [],
   "author": "Menahi Shayan",
+  "contributors": [
+    {
+      "name": "lnlyssg (Jim)",
+      "github": "@lnlyssg"
+    },
+    {
+      "name": "Houssam Otarid",
+      "github": "@HoussamOtarid"
+    },
+    {
+      "name": "Menahi Shayan",
+      "github": "@menahishayan"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "raw-loader": "^3.1.0",
-    "webpack": "^5.37.0",
+    "webpack": "^5.99.9",
     "webpack-cli": "^4.7.0"
   }
 }
