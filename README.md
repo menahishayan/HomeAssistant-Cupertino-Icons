@@ -129,8 +129,8 @@ Certain icons are copyrighted by Apple and are not allowed to used with modifica
 
 ## Changelog
 
-### v4.0
- - Add SF Symbols (Credit: @HoussamOtarid)
+### v4.0.0
+ - Add support for SF Symbols 6 (Credit: @HoussamOtarid)
  - Fixed deprecation issue for HA 2025.7.0 (Credit: @lnlyssg)
 
 Thanks to all the contributors for v4.0!
