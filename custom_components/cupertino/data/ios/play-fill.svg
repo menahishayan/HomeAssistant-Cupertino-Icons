@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Generator: Apple Native CoreSVG 326-->
+<!--Generator: Apple Native CoreSVG 341-->
 <!DOCTYPE svg
 PUBLIC "-//W3C//DTD SVG 1.1//EN"
        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20.6934 20.8691">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16.841 16.9785">
  <g>
-  <rect height="20.8691" opacity="0" width="20.6934" x="0" y="0"/>
-  <path d="M2.25586 19.1699C2.25586 20.3223 2.92969 20.8594 3.7207 20.8594C4.0625 20.8594 4.42383 20.752 4.76562 20.5566L19.4531 11.9238C20.3613 11.3965 20.6934 11.0254 20.6934 10.4297C20.6934 9.82422 20.3613 9.45312 19.4531 8.92578L4.76562 0.292969C4.42383 0.0976562 4.0625 0 3.7207 0C2.92969 0 2.25586 0.527344 2.25586 1.67969Z" fill="black" fill-opacity="0.85"/>
+  <rect height="16.9785" opacity="0" width="16.841" x="0" y="0"/>
+  <path d="M1.73711 15.3795C1.73711 16.4465 2.36933 16.9687 3.1248 16.9687C3.45116 16.9687 3.79432 16.864 4.13046 16.6849L15.6656 9.94666C16.506 9.46033 16.841 9.08006 16.841 8.48436C16.841 7.88066 16.506 7.50839 15.6656 7.02031L4.13046 0.283788C3.79432 0.0949216 3.45116 0 3.1248 0C2.36933 0 1.73711 0.520505 1.73711 1.58925Z" fill="white" fill-opacity="0.85"/>
  </g>
 </svg>

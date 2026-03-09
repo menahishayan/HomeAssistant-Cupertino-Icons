@@ -87,7 +87,7 @@ The icons should be usable in Home Assistant now. If it doesnt show up, try refr
 Prefix: **ios**  
 Eg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## Multi-Color Icons! (v3.0+)
+## Multi-Color Icons
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -130,12 +130,7 @@ Eg:
 
 ## Icon Reference
 
-**v3.0 Update**  
- - Home Assistant Cupertino Icons has now been updated to SF Symbols v3.0 with **3167 Icons**! (Copyrighted icons excluded)
- - Supports Home Assistant's icon picker (2021.11.0+)
-
 [SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)
 
 You may download the MacOS App from Apple for a better reference.
 
@@ -149,17 +144,15 @@ Starting with v3.0+, this repo has been changed from a lovelace/frontend repo to
 4. Follow **Install** instructions above
 
 ## Legal Disclaimer
-Certain icons are copyrighted by Apple and are not allowed to used with modification. These icons have not been exported and are not present in this repo. They will not be included.
-
-<hr/>
-
-## To Do
-☑️ Upgrade to SF Pro Symbols v2.1  
-☑️ Upgrade to SF Pro Symbols v3.0  
-☑️ Multicolor support  
-☑️ Icon Picker  
+Copyrighted icons have not been exported and are not present in this repo. They will not be included.
 
 ## Changelog
+
+### v5.0.0
+ - Add support for SF Symbols 7 (Credit: @enzofrnt) #28
+ - Cleanup macOS spotlight files from repo
+
+🎉 Thanks to all the contributors for v5.0!
 
 ### v4.0.1
  - Fix version mismatch in manifest
