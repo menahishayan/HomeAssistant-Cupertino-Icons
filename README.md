@@ -35,6 +35,10 @@
 # Home Assistant Cupertino Icons
 Apple SF Symbols Icons for Home Assistant! (3000+ Icons)
 
+<p align="center">
+  <img src="custom_components/cupertino/brand/icon.png" alt="Home Assistant Cupertino Icons" width="140" />
+</p>
+
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
