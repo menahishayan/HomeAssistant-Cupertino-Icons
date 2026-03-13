@@ -1,7 +1,7 @@
 {
   "name": "cupertino-icons",
   "private": false,
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "",
   "scripts": {
     "build": "webpack"
