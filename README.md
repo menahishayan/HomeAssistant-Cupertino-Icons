@@ -32,11 +32,11 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# Home Assistant Cupertino Icons
+# Home Assistant Cupertino Icons (SF Symbols)
 Apple SF Symbols Icons for Home Assistant! (3000+ Icons)
 
 <p align="center">
-  <img src="custom_components/cupertino/brand/icon.png" alt="Home Assistant Cupertino Icons" width="140" />
+  <img src="custom_components/cupertino/brand/dark_logo.png" alt="Home Assistant Cupertino Icons" width="140" />
 </p>
 
 <div style="display: inline-block;">
@@ -151,6 +151,9 @@ Starting with v3.0+, this repo has been changed from a lovelace/frontend repo to
 Copyrighted icons have not been exported and are not present in this repo. They will not be included.
 
 ## Changelog
+
+### v5.0.1
+ - Brand Icons #29 (Fixes #15)
 
 ### v5.0.0
  - Add support for SF Symbols 7 (Credit: @enzofrnt) #28

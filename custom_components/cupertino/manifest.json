@@ -13,6 +13,6 @@
     "requirements": [],
     "integration_type": "service",
     "config_flow": true,
-    "version": "5.0.0",
+    "version": "5.0.1",
     "iot_class": "local_polling"
 }
